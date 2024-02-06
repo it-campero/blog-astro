@@ -1,8 +1,14 @@
 ---
+// FIXME: Frontmatter ==============================-->
+import Navigation from "../components/Navigation.astro";
+import Footer from "../components/Footer.astro";
 import "../pages/styles/global.css";
+
+
 const pageTitle: string = "Página de inicio";
 ---
 
+<!-- TODO: HTML ===================================-->
 <html lang="en">
   <head>
     <meta charset="utf-8" />
@@ -11,10 +17,10 @@ const pageTitle: string = "Página de inicio";
     <meta name="generator" content={Astro.generator} />
     <title>{pageTitle}</title>
   </head>
-  <body>
-    <a href="/">Inicio</a>
-    <a href="/about/">Sobre mi</a>
-    <a href="/blog">Blog</a>
-    <h1>Bienvenidos a Astro2024</h1>
+  <body>  
+    <Navigation />
+    <h1>{pageTitle}</h1>
+    <Footer />
   </body>
 </html>
+<!-- TODO: End ===================================-->

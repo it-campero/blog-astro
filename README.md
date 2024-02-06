@@ -45,3 +45,10 @@ All commands are run from the root of the project, from a terminal:
 ## 👀 Want to learn more?
 
 Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+![Imagen del logotipo de Astro](https://aalam.in/_next/image?url=%2Fstatic%2Fimages%2Fastro-get-up-and-running%2Fbanner.png&w=1920&q=75)
+
+> 🧑‍🚀 **Bienvenidos al curso de Astro** Saludos a todos!
+
+
+
+
